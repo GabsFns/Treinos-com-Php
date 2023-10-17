@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: gainsboro
+}
+header{
+    margin: 180px 100px 50px 100px;
+    text-align: center;
+    color: white;
+}
+main{
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 10px 15px rgb(71, 71, 71),
+                20px 30px black;
+    border-radius: 30px 30px 50px 50px;
+    width: 290px;
+    height: 180px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: khaki;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    
+    animation: levitate 2s infinite ease-in-out;
+    
+}
+
+
+@keyframes levitate {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+  }
+
+.ajuste{
+    margin: 40px 2px 5px 2px;
+  
+}
+
+a{
+    color: #222680;
+}
